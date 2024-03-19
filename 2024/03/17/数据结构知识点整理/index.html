@@ -111,7 +111,7 @@
           
             <h2 class="last-time">
               <span>最后更新于</span>
-              <time  class="article-updated" datetime="2024-03-19T10:22:00.399Z" itemprop="dateUpdated">2024-03-19</time>
+              <time  class="article-updated" datetime="2024-03-19T10:26:27.739Z" itemprop="dateUpdated">2024-03-19</time>
             </h2>
           
           
@@ -246,44 +246,6 @@
 <figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="number">0</span> <span class="number">2</span></span><br></pre></td></tr></table></figure>
 <h3 id="AC代码">AC代码</h3>
 <figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"></span><br><span class="line"><span class="type">const</span> <span class="type">int</span> N = <span class="number">1e6</span>+<span class="number">50</span>;</span><br><span class="line"></span><br><span class="line"><span class="type">int</span> n,m;</span><br><span class="line"><span class="type">char</span> p[N],s[N];</span><br><span class="line"><span class="type">int</span> ne[N];</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    cin &gt;&gt; n &gt;&gt; p+<span class="number">1</span> &gt;&gt; m &gt;&gt; s+<span class="number">1</span>;</span><br><span class="line">    </span><br><span class="line">    <span class="comment">//求next[N]数组</span></span><br><span class="line">    <span class="keyword">for</span>(<span class="type">int</span> i = <span class="number">2</span>, j = <span class="number">0</span>; i &lt;= n; i++)</span><br><span class="line">    &#123;</span><br><span class="line">        <span class="keyword">while</span>(j &amp;&amp; p[i] != p[j+<span class="number">1</span>]) j = ne[j];</span><br><span class="line">        <span class="keyword">if</span>(p[i] == p[j+<span class="number">1</span>]) j++;</span><br><span class="line">        ne[i] = j;</span><br><span class="line">    &#125;</span><br><span class="line">    </span><br><span class="line">    <span class="keyword">for</span>(<span class="type">int</span> i = <span class="number">1</span>, j = <span class="number">0</span>; i &lt;= m; i++)</span><br><span class="line">    &#123;</span><br><span class="line">        <span class="keyword">while</span>(j &amp;&amp; s[i] != p[j+<span class="number">1</span>]) j = ne[j];</span><br><span class="line">        <span class="keyword">if</span>(s[i] == p[j+<span class="number">1</span>]) j++;</span><br><span class="line">        <span class="keyword">if</span>(j == n)</span><br><span class="line">        &#123;</span><br><span class="line">            cout &lt;&lt; i - n &lt;&lt; <span class="string">&quot; &quot;</span>;</span><br><span class="line">            j = ne[j];</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">    </span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<table>
-<thead>
-<tr>
-<th style="text-align:center">时间</th>
-<th style="text-align:center">内容</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:center">8:30</td>
-<td style="text-align:center">起床</td>
-</tr>
-<tr>
-<td style="text-align:center">8:40-9:00</td>
-<td style="text-align:center">早饭</td>
-</tr>
-<tr>
-<td style="text-align:center">9:10-11:30</td>
-<td style="text-align:center">高数一</td>
-</tr>
-<tr>
-<td style="text-align:center">11:40-13:40</td>
-<td style="text-align:center">午饭、午休</td>
-</tr>
-<tr>
-<td style="text-align:center">13:50-17:30</td>
-<td style="text-align:center">408</td>
-</tr>
-<tr>
-<td style="text-align:center">17:40-19:00</td>
-<td style="text-align:center">晚饭、休息</td>
-</tr>
-<tr>
-<td style="text-align:center">19:10-22:30</td>
-<td style="text-align:center">复盘、刷题</td>
-</tr>
-</tbody>
-</table>
 <h2 id="查找">查找</h2>
 <h3 id="红黑树（Red-Black-Tree）">红黑树（Red-Black-Tree）</h3>
 <p>红黑树一种特殊的二叉搜索树（排序二叉树），左子树和右子树的黑结点的层数是相等的，也即任意一个结点到每个叶结点的路径上的黑结点的数量相同，所以红黑树的这种平衡也叫黑色完美平衡。</p>
