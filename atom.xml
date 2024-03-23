@@ -127,6 +127,7 @@
 &lt;p&gt;左旋：以某个结点作为支点（旋转结点），其右子结点变为旋转结点的父结点，右子结点的左子树变为旋转结点的右子树，右子结点的右子树保持不变。&lt;/p&gt;
 &lt;h5 id=&#34;2红黑树的右旋&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#2红黑树的右旋&#34;&gt;#&lt;/a&gt; 2. 红黑树的右旋&lt;/h5&gt;
 </content>
+        <category term="DataStructure" scheme="http://yoursite.com/categories/DataStructure/" />
         <category term="对于考研的数据结构整理" scheme="http://yoursite.com/tags/%E5%AF%B9%E4%BA%8E%E8%80%83%E7%A0%94%E7%9A%84%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E6%95%B4%E7%90%86/" />
         <updated>2024-03-17T15:47:35.000Z</updated>
     </entry>

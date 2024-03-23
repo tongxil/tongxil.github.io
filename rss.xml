@@ -28,6 +28,7 @@
             <guid isPermalink="true">http://yoursite.com/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E7%9F%A5%E8%AF%86%E7%82%B9%E6%95%B4%E7%90%86/</guid>
             <title>数据结构知识点整理</title>
             <link>http://yoursite.com/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E7%9F%A5%E8%AF%86%E7%82%B9%E6%95%B4%E7%90%86/</link>
+            <category term="DataStructure" scheme="http://yoursite.com/categories/DataStructure/" />
             <category term="对于考研的数据结构整理" scheme="http://yoursite.com/tags/%E5%AF%B9%E4%BA%8E%E8%80%83%E7%A0%94%E7%9A%84%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E6%95%B4%E7%90%86/" />
             <pubDate>Sun, 17 Mar 2024 23:47:35 +0800</pubDate>
             <description><![CDATA[ &lt;h2 id=&#34;数据结构data-structure&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#数据结构data-structure&#34;&gt;#&lt;/a&gt; 数据结构（Data Structure）&lt;/h2&gt;
