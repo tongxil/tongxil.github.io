@@ -10,10 +10,20 @@
         </author>
         <description>描述123</description>
         <language>zh-CN</language>
-        <pubDate>Sat, 23 Mar 2024 21:09:37 +0800</pubDate>
-        <lastBuildDate>Sat, 23 Mar 2024 21:09:37 +0800</lastBuildDate>
+        <pubDate>Wed, 27 Mar 2024 10:28:05 +0800</pubDate>
+        <lastBuildDate>Wed, 27 Mar 2024 10:28:05 +0800</lastBuildDate>
         <category term="关键词1" />
         <category term="关键词2" />
+        <item>
+            <guid isPermalink="true">http://yoursite.com/%E9%AB%98%E6%95%B0/</guid>
+            <title>高数</title>
+            <link>http://yoursite.com/%E9%AB%98%E6%95%B0/</link>
+            <category term="考研数学" scheme="http://yoursite.com/categories/%E8%80%83%E7%A0%94%E6%95%B0%E5%AD%A6/" />
+            <category term="高数" scheme="http://yoursite.com/tags/%E9%AB%98%E6%95%B0/" />
+            <pubDate>Wed, 27 Mar 2024 10:28:05 +0800</pubDate>
+            <description><![CDATA[ &lt;h1 id=&#34;考研数学数一高数部分&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#考研数学数一高数部分&#34;&gt;#&lt;/a&gt; 考研数学（数一）高数部分&lt;/h1&gt;
+ ]]></description>
+        </item>
         <item>
             <guid isPermalink="true">http://yoursite.com/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/</guid>
             <title>每日一题</title>
