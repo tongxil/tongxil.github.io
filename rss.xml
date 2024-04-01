@@ -148,9 +148,15 @@
 &lt;p&gt;你需要访问  &lt;code&gt;n&lt;/code&gt;  个房间，房间从  &lt;code&gt;0&lt;/code&gt;  到  &lt;code&gt;n - 1&lt;/code&gt;  编号。同时，每一天都有一个日期编号，从  &lt;code&gt;0&lt;/code&gt;  开始，依天数递增。你每天都会访问一个房间。&lt;/p&gt;
 &lt;p&gt;最开始的第  &lt;code&gt;0&lt;/code&gt;  天，你访问  &lt;code&gt;0&lt;/code&gt;  号房间。给你一个长度为  &lt;code&gt;n&lt;/code&gt;  且 &lt;strong&gt;下标从 0 开始&lt;/strong&gt; 的数组  &lt;code&gt;nextVisit&lt;/code&gt;  。在接下来的几天中，你访问房间的 &lt;strong&gt;次序&lt;/strong&gt; 将根据下面的 &lt;strong&gt;规则&lt;/strong&gt; 决定：&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;假设某一天，你访问  &lt;code&gt;i&lt;/code&gt;  号房间。&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;假设某一天，你访问  &lt;code&gt;i&lt;/code&gt;  号房间。&lt;/p&gt;
+&lt;ul&gt;
 &lt;li&gt;如果算上本次访问，访问  &lt;code&gt;i&lt;/code&gt;  号房间的次数为 &lt;strong&gt;奇数&lt;/strong&gt; ，那么 &lt;strong&gt;第二天&lt;/strong&gt; 需要访问  &lt;code&gt;nextVisit[i]&lt;/code&gt;  所指定的房间，其中  &lt;code&gt;0 &amp;lt;= nextVisit[i] &amp;lt;= i&lt;/code&gt;  。&lt;/li&gt;
-&lt;li&gt;如果算上本次访问，访问  &lt;code&gt;i&lt;/code&gt;  号房间的次数为 &lt;strong&gt;偶数&lt;/strong&gt; ，那么 &lt;strong&gt;第二天&lt;/strong&gt; 需要访问  &lt;code&gt;(i + 1) mod n&lt;/code&gt;  号房间。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;如果算上本次访问，访问  &lt;code&gt;i&lt;/code&gt;  号房间的次数为 &lt;strong&gt;偶数&lt;/strong&gt; ，那么 &lt;strong&gt;第二天&lt;/strong&gt; 需要访问  &lt;code&gt;(i + 1) mod n&lt;/code&gt;  号房间。&lt;/p&gt;
+&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;请返回你访问完所有房间的第一天的日期编号。题目数据保证总是存在这样的一天。由于答案可能很大，返回对  &lt;code&gt;10^9 + 7&lt;/code&gt;  取余后的结果。&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;示例 1：&lt;/em&gt;&lt;/p&gt;
@@ -237,10 +243,56 @@
             <guid isPermalink="true">http://yoursite.com/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86%E7%9F%A5%E8%AF%86%E6%95%B4%E7%90%86/</guid>
             <title>计算机组成原理知识整理</title>
             <link>http://yoursite.com/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86%E7%9F%A5%E8%AF%86%E6%95%B4%E7%90%86/</link>
+            <category term="计算机组成原理" scheme="http://yoursite.com/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86/" />
             <category term="考研对于计算机组成原理的知识整理" scheme="http://yoursite.com/tags/%E8%80%83%E7%A0%94%E5%AF%B9%E4%BA%8E%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86%E7%9A%84%E7%9F%A5%E8%AF%86%E6%95%B4%E7%90%86/" />
             <pubDate>Sun, 17 Mar 2024 23:50:58 +0800</pubDate>
             <description><![CDATA[ &lt;h2 id=&#34;计算机组成原理的知识总结&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#计算机组成原理的知识总结&#34;&gt;#&lt;/a&gt; 计算机组成原理的知识总结&lt;/h2&gt;
 &lt;h3 id=&#34;第一章&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#第一章&#34;&gt;#&lt;/a&gt; 第一章&lt;/h3&gt;
+&lt;h4 id=&#34;111-计算机的四代变化&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#111-计算机的四代变化&#34;&gt;#&lt;/a&gt; 1.1.1 计算机的四代变化&lt;/h4&gt;
+&lt;h5 id=&#34;第一代&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#第一代&#34;&gt;#&lt;/a&gt; &lt;em&gt;第一代&lt;/em&gt;：&lt;/h5&gt;
+&lt;p&gt;电子管时代，逻辑元件采用电子管&lt;/p&gt;
+&lt;h5 id=&#34;第二代&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#第二代&#34;&gt;#&lt;/a&gt; &lt;em&gt;第二代：&lt;/em&gt;&lt;/h5&gt;
+&lt;p&gt;晶体管时代，逻辑元件采用晶体管&lt;/p&gt;
+&lt;h5 id=&#34;第三代&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#第三代&#34;&gt;#&lt;/a&gt; &lt;em&gt;第三代：&lt;/em&gt;&lt;/h5&gt;
+&lt;p&gt;中小规模集成电路时代，逻辑元件采用中小型集成电路&lt;/p&gt;
+&lt;h5 id=&#34;第四代&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#第四代&#34;&gt;#&lt;/a&gt; &lt;em&gt;第四代：&lt;/em&gt;&lt;/h5&gt;
+&lt;p&gt;超大规模集成电路时代，逻辑元件采用大规模或超大规模集成电路&lt;/p&gt;
+&lt;h3 id=&#34;计算机系统的层次结构&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#计算机系统的层次结构&#34;&gt;#&lt;/a&gt; 计算机系统的层次结构&lt;/h3&gt;
+&lt;h5 id=&#34;计算机系统的组成&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#计算机系统的组成&#34;&gt;#&lt;/a&gt; &lt;em&gt;计算机系统的组成：&lt;/em&gt;&lt;/h5&gt;
+&lt;p&gt;计算机系统由 &lt;code&gt;硬件系统&lt;/code&gt; 和 &lt;code&gt;软件系统&lt;/code&gt; 共同构成。&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;&lt;mark&gt;计算机硬件&lt;/mark&gt;&lt;/em&gt;：&lt;/p&gt;
+&lt;p&gt;​	1. 冯 - 洛伊曼计算机的特点：&lt;/p&gt;
+&lt;p&gt;​		 &lt;code&gt;1:&lt;/code&gt;  计算机的硬件系统由五大部分组成： &lt;code&gt;控制器&lt;/code&gt; ， &lt;code&gt;存储器&lt;/code&gt; ， &lt;code&gt;运算器&lt;/code&gt; ， &lt;code&gt;输入设备&lt;/code&gt; ， &lt;code&gt;输出设备&lt;/code&gt; 。&lt;/p&gt;
+&lt;p&gt;​		 &lt;code&gt;2:&lt;/code&gt;  采用&lt;mark&gt;存储程序&lt;/mark&gt;的工作方式，即：将需要运行的程序存储到存储器中。&lt;/p&gt;
+&lt;p&gt;​		 &lt;code&gt;3:&lt;/code&gt;  指令和数据以&lt;mark&gt;同等地位&lt;/mark&gt;存储到存储器当中。&lt;/p&gt;
+&lt;p&gt;​		 &lt;code&gt;4:&lt;/code&gt;  指令和数据都以二进制的形式存储。&lt;/p&gt;
+&lt;p&gt;​		 &lt;code&gt;5:&lt;/code&gt;  指令由操作码和地址码组成。&lt;/p&gt;
+&lt;p&gt;&lt;mark&gt;存储程序的基本思想&lt;/mark&gt;：将事先编制好的程序和原始数据送入主存储器中，一旦被启动，就一步一步执行，直到程序结束。&lt;/p&gt;
+&lt;p&gt;&lt;mark&gt;各五大部件的功能&lt;/mark&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;输入设备：&lt;/p&gt;
+&lt;p&gt;输入设备的主要功能是将程序和数据以机器所识别的方式输入计算机。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;输出设备：&lt;/p&gt;
+&lt;p&gt;将计算机的计算结果以人类可接受的识别方式进行输出，例如输出到屏幕或为音频。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;存储器：&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;1:&lt;/code&gt;  存储器分为主存储器（也称内存或主存）和辅存储器（机械硬盘，当程序不在运行时，应把它当为 &lt;code&gt;IO&lt;/code&gt;  设备的一部分）。&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;2:&lt;/code&gt;  主存储器由 &lt;code&gt;存储体&lt;/code&gt; 和 &lt;code&gt;地址寄存器（MAR）&lt;/code&gt; 和 &lt;code&gt;数据寄存器（MDR）&lt;/code&gt; 组成。&lt;/p&gt;
+&lt;p&gt;​	存储体：存放二进制数据，存储体由许多 &lt;code&gt;存储单元&lt;/code&gt; 组成，每个存储单元又由若干个 &lt;code&gt;存储元件（每个存储元件存储一个二进制位）&lt;/code&gt; 组成。&lt;/p&gt;
+&lt;p&gt;​	存储单元：存储单元里存储的二进制串又称为 &lt;code&gt;存储字&lt;/code&gt; ，而 &lt;code&gt;存储字&lt;/code&gt; 的位数又称为 &lt;code&gt;存储字长&lt;/code&gt; 。&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;3:&lt;/code&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;运算器：&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;控制器：&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
  ]]></description>
         </item>
         <item>
