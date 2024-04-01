@@ -261,6 +261,7 @@
 &lt;p&gt;​		 &lt;code&gt;3:&lt;/code&gt;  指令和数据以&lt;mark&gt;同等地位&lt;/mark&gt;存储到存储器当中。&lt;/p&gt;
 &lt;p&gt;​		 &lt;code&gt;4:&lt;/code&gt;  指令和数据都以二进制的形式存储。&lt;/p&gt;
 &lt;p&gt;​		 &lt;code&gt;5:&lt;/code&gt;  指令由操作码和地址码组成。&lt;/p&gt;
+&lt;p&gt;​		 &lt;code&gt;6:&lt;/code&gt;  早期的冯 - 洛伊曼计算机以运算器为中心，现在的冯 - 洛伊曼计算机以存储器为中心。&lt;/p&gt;
 &lt;p&gt;&lt;mark&gt;存储程序的基本思想&lt;/mark&gt;：将事先编制好的程序和原始数据送入主存储器中，一旦被启动，就一步一步执行，直到程序结束。&lt;/p&gt;
 &lt;p&gt;&lt;mark&gt;各五大部件的功能&lt;/mark&gt;&lt;/p&gt;
 &lt;ol&gt;
