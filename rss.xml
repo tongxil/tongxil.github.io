@@ -237,6 +237,7 @@
 &lt;h4 id=&#34;1红黑树的左旋&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#1红黑树的左旋&#34;&gt;#&lt;/a&gt; 1. 红黑树的左旋&lt;/h4&gt;
 &lt;p&gt;左旋：以某个结点作为支点（旋转结点），其右子结点变为旋转结点的父结点，右子结点的左子树变为旋转结点的右子树，右子结点的右子树保持不变。&lt;/p&gt;
 &lt;h4 id=&#34;2红黑树的右旋&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#2红黑树的右旋&#34;&gt;#&lt;/a&gt; 2. 红黑树的右旋&lt;/h4&gt;
+&lt;p&gt;​&lt;/p&gt;
  ]]></description>
         </item>
         <item>
@@ -285,13 +286,17 @@
 &lt;p&gt;&lt;code&gt;2:&lt;/code&gt;  主存储器由 &lt;code&gt;存储体&lt;/code&gt; 和 &lt;code&gt;地址寄存器（MAR）&lt;/code&gt; 和 &lt;code&gt;数据寄存器（MDR）&lt;/code&gt; 组成。&lt;/p&gt;
 &lt;p&gt;​	存储体：存放二进制数据，存储体由许多 &lt;code&gt;存储单元&lt;/code&gt; 组成，每个存储单元又由若干个 &lt;code&gt;存储元件（每个存储元件存储一个二进制位）&lt;/code&gt; 组成。&lt;/p&gt;
 &lt;p&gt;​	存储单元：存储单元里存储的二进制串又称为 &lt;code&gt;存储字&lt;/code&gt; ，而 &lt;code&gt;存储字&lt;/code&gt; 的位数又称为 &lt;code&gt;存储字长&lt;/code&gt; 。&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;3:&lt;/code&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;运算器：&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;1:&lt;/code&gt;  运算器的核心部件是 &lt;code&gt;ALU（算术逻辑单元）&lt;/code&gt; ，而 ALU 的核心是 &lt;code&gt;加法器&lt;/code&gt; 。&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;2:&lt;/code&gt;  功能：用于算术运算和逻辑运算。&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;3:&lt;/code&gt;  运算器包含若干的寄存器，用于暂存操作数和中间结果，如 &lt;code&gt;累加器（ACC）&lt;/code&gt; 、 &lt;code&gt;乘商寄存器（MQ）&lt;/code&gt; 、 &lt;code&gt;操作数寄存器（X）&lt;/code&gt; 、 &lt;code&gt;变址寄存器（IX）&lt;/code&gt; 、 &lt;code&gt;基址寄存器（BR）&lt;/code&gt; 、 &lt;code&gt;程序状态字寄存器（PSW，在其他的教材中也被称作FR）&lt;/code&gt; 。&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;控制器：&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;1:&lt;/code&gt;  控制器是计算机的指挥中心。&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;2:&lt;/code&gt;  控制器由 &lt;code&gt;程序计数器（PC，具有自动加一功能）&lt;/code&gt; 、 &lt;code&gt;指令寄存器（IR）&lt;/code&gt; 、 &lt;code&gt;控制单元（CU）&lt;/code&gt; 组成。&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
  ]]></description>
