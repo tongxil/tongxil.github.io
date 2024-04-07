@@ -293,6 +293,15 @@
 &lt;p&gt;&lt;code&gt;2:&lt;/code&gt;  控制器由 &lt;code&gt;程序计数器（PC，具有自动加一功能）&lt;/code&gt; 、 &lt;code&gt;指令寄存器（IR）&lt;/code&gt; 、 &lt;code&gt;控制单元（CU）&lt;/code&gt; 组成。&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
+&lt;h5 id=&#34;计算机软件&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#计算机软件&#34;&gt;#&lt;/a&gt; &lt;em&gt;计算机软件：&lt;/em&gt;&lt;/h5&gt;
+&lt;p&gt;计算机软件由 &lt;code&gt;系统软件&lt;/code&gt; 和 &lt;code&gt;应用软件组成&lt;/code&gt; 。&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;系统软件：&lt;/code&gt; 是保证计算机系统高效、正确运行的基础软件（例如：操作系统，数据库管理系统，网络软件系统和标准程序库等）。&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;应用软件：&lt;/code&gt; 是指用户为解决某个应用领域中的各种问题而编制的程序。&lt;/p&gt;
+&lt;h6 id=&#34;语言的三个级别&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#语言的三个级别&#34;&gt;#&lt;/a&gt; &lt;em&gt;语言的三个级别：&lt;/em&gt;&lt;/h6&gt;
+&lt;p&gt;&lt;code&gt;机器语言：&lt;/code&gt; 也称二进制代码语言，是计算机 &lt;code&gt;唯一&lt;/code&gt; 可以直接识别和执行的语言。&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;汇编语言：&lt;/code&gt; 需要经过 &lt;code&gt;汇编程序&lt;/code&gt; 进行翻译为机器语言的上一层语言。&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;高级语言：&lt;/code&gt; 分为三种：1. 需要经过编译器翻译成汇编语言。2. 需要经过解释器进行解释为机器语言（一条一条的解释）。3. 需要经过编译程序直接翻译为机器语言。&lt;/p&gt;
+&lt;p&gt;同时 &lt;code&gt;编译程序&lt;/code&gt; 、 &lt;code&gt;解释程序&lt;/code&gt; 、 &lt;code&gt;汇编程序&lt;/code&gt; 统称为 &lt;code&gt;翻译程序&lt;/code&gt; 。&lt;/p&gt;
 </content>
         <category term="计算机组成原理" scheme="http://yoursite.com/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86/" />
         <category term="考研对于计算机组成原理的知识整理" scheme="http://yoursite.com/tags/%E8%80%83%E7%A0%94%E5%AF%B9%E4%BA%8E%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86%E7%9A%84%E7%9F%A5%E8%AF%86%E6%95%B4%E7%90%86/" />
