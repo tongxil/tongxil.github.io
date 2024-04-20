@@ -8,9 +8,50 @@
     <author>
       <name>蹲街吃泡面@</name>
     </author>
-    <updated>2024-03-27T02:28:05.000Z</updated>
+    <updated>2024-04-20T02:46:07.000Z</updated>
     <category term="关键词1" />
     <category term="关键词2" />
+    <entry>
+        <id>http://yoursite.com/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86%E7%AC%AC%E4%B8%89%E7%AB%A0%E7%9F%A5%E8%AF%86%E6%95%B4%E7%90%86/</id>
+        <title>计算机组成原理第三章知识整理</title>
+        <link rel="alternate" href="http://yoursite.com/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86%E7%AC%AC%E4%B8%89%E7%AB%A0%E7%9F%A5%E8%AF%86%E6%95%B4%E7%90%86/"/>
+        <content type="html">&lt;h2 id=&#34;计算机组成原理第三章存储系统知识点整理&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#计算机组成原理第三章存储系统知识点整理&#34;&gt;#&lt;/a&gt; 计算机组成原理第三章（存储系统）知识点整理&lt;/h2&gt;
+&lt;h3 id=&#34;存储器的概述&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#存储器的概述&#34;&gt;#&lt;/a&gt; 存储器的概述：&lt;/h3&gt;
+&lt;h4 id=&#34;分类&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#分类&#34;&gt;#&lt;/a&gt; 分类：&lt;/h4&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;层次分类&lt;/code&gt; ：&lt;/p&gt;
+&lt;p&gt;1）主存储器。简称主存（内存）&lt;/p&gt;
+&lt;p&gt;2）辅助存储器。简称辅存（外存，比如是磁盘之类的）&lt;/p&gt;
+&lt;p&gt;3）高速存储器（Cache）。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;存储介质分类&lt;/code&gt; ：&lt;/p&gt;
+&lt;p&gt;1）磁表面存储器（磁带，磁盘）&lt;/p&gt;
+&lt;p&gt;2）磁芯存储器&lt;/p&gt;
+&lt;p&gt;3）半导体存储器&lt;/p&gt;
+&lt;p&gt;4）光存储器&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;存储方式分类&lt;/code&gt; :&lt;/p&gt;
+&lt;p&gt;1）随机存储器&lt;/p&gt;
+&lt;p&gt;2）只读存储器&lt;/p&gt;
+&lt;p&gt;3）串行访问存储器：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;顺序存储器&lt;/li&gt;
+&lt;li&gt;直接存储器&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;4）相联存储器&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;code&gt;可保存性分类&lt;/code&gt; :&lt;/li&gt;
+&lt;/ol&gt;
+</content>
+        <category term="计算机组成原理" scheme="http://yoursite.com/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86/" />
+        <category term="考研对于计算机组成原理的知识整理" scheme="http://yoursite.com/tags/%E8%80%83%E7%A0%94%E5%AF%B9%E4%BA%8E%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86%E7%9A%84%E7%9F%A5%E8%AF%86%E6%95%B4%E7%90%86/" />
+        <updated>2024-04-20T02:46:07.000Z</updated>
+    </entry>
     <entry>
         <id>http://yoursite.com/%E9%AB%98%E6%95%B0/</id>
         <title>高数</title>

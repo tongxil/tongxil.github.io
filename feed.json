@@ -7,6 +7,17 @@
     "home_page_url": "http://yoursite.com",
     "items": [
         {
+            "id": "http://yoursite.com/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86%E7%AC%AC%E4%B8%89%E7%AB%A0%E7%9F%A5%E8%AF%86%E6%95%B4%E7%90%86/",
+            "url": "http://yoursite.com/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86%E7%AC%AC%E4%B8%89%E7%AB%A0%E7%9F%A5%E8%AF%86%E6%95%B4%E7%90%86/",
+            "title": "计算机组成原理第三章知识整理",
+            "date_published": "2024-04-20T02:46:07.000Z",
+            "content_html": "<h2 id=\"计算机组成原理第三章存储系统知识点整理\"><a class=\"anchor\" href=\"#计算机组成原理第三章存储系统知识点整理\">#</a> 计算机组成原理第三章（存储系统）知识点整理</h2>\n<h3 id=\"存储器的概述\"><a class=\"anchor\" href=\"#存储器的概述\">#</a> 存储器的概述：</h3>\n<h4 id=\"分类\"><a class=\"anchor\" href=\"#分类\">#</a> 分类：</h4>\n<ol>\n<li>\n<p><code>层次分类</code> ：</p>\n<p>1）主存储器。简称主存（内存）</p>\n<p>2）辅助存储器。简称辅存（外存，比如是磁盘之类的）</p>\n<p>3）高速存储器（Cache）。</p>\n</li>\n<li>\n<p><code>存储介质分类</code> ：</p>\n<p>1）磁表面存储器（磁带，磁盘）</p>\n<p>2）磁芯存储器</p>\n<p>3）半导体存储器</p>\n<p>4）光存储器</p>\n</li>\n<li>\n<p><code>存储方式分类</code> :</p>\n<p>1）随机存储器</p>\n<p>2）只读存储器</p>\n<p>3）串行访问存储器：</p>\n<ul>\n<li>顺序存储器</li>\n<li>直接存储器</li>\n</ul>\n</li>\n</ol>\n<p>4）相联存储器</p>\n<ol>\n<li><code>可保存性分类</code> :</li>\n</ol>\n",
+            "tags": [
+                "计算机组成原理",
+                "考研对于计算机组成原理的知识整理"
+            ]
+        },
+        {
             "id": "http://yoursite.com/%E9%AB%98%E6%95%B0/",
             "url": "http://yoursite.com/%E9%AB%98%E6%95%B0/",
             "title": "高数",
