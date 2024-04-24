@@ -77,7 +77,7 @@
 &lt;li&gt;DRAM 使用单栅极 CMOS 管实现，集成度高，成本低，容量大&lt;/li&gt;
 &lt;li&gt;DRAM 的信息读取是通过电容的放电来获取信息（ &lt;code&gt;所以是破坏性读出，在读出后需要进行数据的再生&lt;/code&gt; ），而 SRAM 的信息是双稳态触发器实现（是 &lt;code&gt;非破坏性读出&lt;/code&gt; ，无需数据的再生，这也是 SRAM 的读取速度快于 DRAM 主要原因之一）。&lt;/li&gt;
 &lt;li&gt;DRAM（DRAM 的刷新）是电容实现，需要每隔一段时间为电容充电，时间间隔被称为刷新时间（教材一般指定为 &lt;code&gt;2ms&lt;/code&gt; ）。&lt;/li&gt;
-&lt;li&gt;由 DRAM 组成的主存&lt;/li&gt;
+&lt;li&gt;由 DRAM 组成的主存是阵列的方式排列，读取一个字的时候，是通过行列地址确定相对应的存储单元，而且为了保证 cpu 地址线的长度，采用行列地址线共用，所以行列地址需要分两次送。&lt;/li&gt;
 &lt;/ol&gt;
  ]]></description>
         </item>
