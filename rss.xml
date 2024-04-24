@@ -51,7 +51,33 @@
 &lt;/ol&gt;
 &lt;p&gt;4）相联存储器&lt;/p&gt;
 &lt;ol&gt;
-&lt;li&gt;&lt;code&gt;可保存性分类&lt;/code&gt; :&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;可保存性分类&lt;/code&gt; :
+&lt;ul&gt;
+&lt;li&gt;易失性存储器（如：内存，Cache）&lt;/li&gt;
+&lt;li&gt;非易失性存储器（如：磁盘，光盘，flash 闪存）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h4 id=&#34;存储器的性能指标&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#存储器的性能指标&#34;&gt;#&lt;/a&gt; 存储器的性能指标：&lt;/h4&gt;
+&lt;ol&gt;
+&lt;li&gt;存储容量 = 存储字数 $ * $ 字长&lt;/li&gt;
+&lt;li&gt;单位成本（每一位的价格）=  总成本 &lt;span class=&#34;katex&#34;&gt;&lt;span class=&#34;katex-mathml&#34;&gt;&lt;math xmlns=&#34;http://www.w3.org/1998/Math/MathML&#34;&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;mi mathvariant=&#34;normal&#34;&gt;/&lt;/mi&gt;&lt;/mrow&gt;&lt;annotation encoding=&#34;application/x-tex&#34;&gt;/&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&#34;katex-html&#34; aria-hidden=&#34;true&#34;&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:1em;vertical-align:-0.25em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;/&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt; 总容量&lt;/li&gt;
+&lt;li&gt;&lt;mark&gt;数据传输率（主存带宽）&lt;span class=&#34;katex&#34;&gt;&lt;span class=&#34;katex-mathml&#34;&gt;&lt;math xmlns=&#34;http://www.w3.org/1998/Math/MathML&#34;&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;mo&gt;=&lt;/mo&gt;&lt;/mrow&gt;&lt;annotation encoding=&#34;application/x-tex&#34;&gt;=&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&#34;katex-html&#34; aria-hidden=&#34;true&#34;&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:0.36687em;vertical-align:0em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mrel&#34;&gt;=&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt; 数据的宽度 &lt;span class=&#34;katex&#34;&gt;&lt;span class=&#34;katex-mathml&#34;&gt;&lt;math xmlns=&#34;http://www.w3.org/1998/Math/MathML&#34;&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;mi mathvariant=&#34;normal&#34;&gt;/&lt;/mi&gt;&lt;/mrow&gt;&lt;annotation encoding=&#34;application/x-tex&#34;&gt;/&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&#34;katex-html&#34; aria-hidden=&#34;true&#34;&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:1em;vertical-align:-0.25em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;/&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt; 存储周期&lt;/mark&gt;&lt;/li&gt;
+&lt;li&gt;&lt;mark&gt;存储周期 &lt;span class=&#34;katex&#34;&gt;&lt;span class=&#34;katex-mathml&#34;&gt;&lt;math xmlns=&#34;http://www.w3.org/1998/Math/MathML&#34;&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;mo&gt;=&lt;/mo&gt;&lt;/mrow&gt;&lt;annotation encoding=&#34;application/x-tex&#34;&gt;=&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&#34;katex-html&#34; aria-hidden=&#34;true&#34;&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:0.36687em;vertical-align:0em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mrel&#34;&gt;=&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt; 存储时间 &lt;span class=&#34;katex&#34;&gt;&lt;span class=&#34;katex-mathml&#34;&gt;&lt;math xmlns=&#34;http://www.w3.org/1998/Math/MathML&#34;&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;mo&gt;+&lt;/mo&gt;&lt;/mrow&gt;&lt;annotation encoding=&#34;application/x-tex&#34;&gt;+&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&#34;katex-html&#34; aria-hidden=&#34;true&#34;&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:0.66666em;vertical-align:-0.08333em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt; 恢复时间&lt;/mark&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h4 id=&#34;sram和dram&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#sram和dram&#34;&gt;#&lt;/a&gt;  &lt;code&gt;SRAM&lt;/code&gt;  和 &lt;code&gt;DRAM&lt;/code&gt; :&lt;/h4&gt;
+&lt;p&gt;SRAM 是静态的 RAM，DRAM 是动态的 RAM&lt;/p&gt;
+&lt;p&gt;作用：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;DRAM（使用单栅极 CMOS 管实现）用于主存&lt;/li&gt;
+&lt;li&gt;SRAM （使用双稳态触发器实现）用于 Cache&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h5 id=&#34;区别&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#区别&#34;&gt;#&lt;/a&gt; 区别：&lt;/h5&gt;
+&lt;ol&gt;
+&lt;li&gt;DRAM 使用单栅极 CMOS 管实现，集成度高，成本低，容量大&lt;/li&gt;
+&lt;li&gt;DRAM 的信息读取是通过电容的放电来获取信息（ &lt;code&gt;所以是破坏性读出，在读出后需要进行数据的再生&lt;/code&gt; ），而 SRAM 的信息是双稳态触发器实现（是 &lt;code&gt;非破坏性读出&lt;/code&gt; ，无需数据的再生，这也是 SRAM 的读取速度快于 DRAM 主要原因之一）。&lt;/li&gt;
+&lt;li&gt;DRAM（DRAM 的刷新）是电容实现，需要每隔一段时间为电容充电，时间间隔被称为刷新时间（教材一般指定为 &lt;code&gt;2ms&lt;/code&gt; ）。&lt;/li&gt;
+&lt;li&gt;由 DRAM 组成的主存&lt;/li&gt;
 &lt;/ol&gt;
  ]]></description>
         </item>
